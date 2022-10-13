@@ -35,5 +35,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StudentsPerfomaceUI\StudentsPerfomaceUI.csproj">
+      <Project>{56bfac11-6f76-46ae-80de-e2934a3b7fb8}</Project>
+      <Name>StudentsPerfomaceUI</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
