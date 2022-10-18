@@ -41,5 +41,15 @@
       <Name>StudentsPerfomaceUI</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\Guardian.cs" />
+    <Compile Include="Models\Mark.cs" />
+    <Compile Include="Models\Role.cs" />
+    <Compile Include="Models\SchoolClass.cs" />
+    <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\Subject.cs" />
+    <Compile Include="Models\Teacher.cs" />
+    <Compile Include="Models\User.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
