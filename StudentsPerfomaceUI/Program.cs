@@ -16,6 +16,7 @@ namespace StudentsPerfomaceUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            StudentsPerfomance.Logic.GlobalConfig.InitializeConnection(true);
             Application.Run(new LoginForm());
         }
     }

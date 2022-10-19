@@ -187,5 +187,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StudentsPerfomance.Logic\StudentsPerfomance.Logic.csproj">
+      <Project>{c7814f39-e242-4771-837e-20786b9e125e}</Project>
+      <Name>StudentsPerfomance.Logic</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
